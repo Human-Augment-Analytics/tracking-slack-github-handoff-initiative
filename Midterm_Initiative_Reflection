@@ -1,0 +1,155 @@
+# Management & Leadership Mid-Semester Report
+
+## Title:
+Slack-to-GitHub Single Source of Truth Tracking Initiative
+
+---
+
+## Initiative Questions
+
+### 1. Describe your initiative / Procedure
+
+This initiative introduces a structured Slack-to-GitHub handoff workflow to improve task tracking, ownership clarity, and long-term consistency across project operations.
+
+In the current team, tracking is already functioning well:
+- Team members report weekly
+- Tasks are visible in both Slack and GitHub
+- Progress can be monitored consistently
+
+However, the current system relies on:
+- Manual tracking by the manager
+- Individual discipline from team members
+- Informal alignment between Slack and GitHub
+
+To improve scalability and reduce dependency on manual coordination, this initiative formalizes a procedure where every actionable item discussed in Slack is converted into a GitHub issue within 24 hours.
+
+The full procedure is documented here:
+👉 `./tracking-slack-github-handoff-initiative`
+
+Key steps:
+- Identify action items in Slack or meetings
+- Create structured GitHub issues (owner, deadline, definition of done)
+- Confirm issue creation in Slack
+- Manager verification
+- Weekly tracking review
+
+---
+
+### 2. Explain the hypotheses / KPIs
+
+#### Hypothesis:
+If Slack action items are consistently converted into GitHub issues within 24 hours, then:
+- Tracking will become more standardized
+- Ownership clarity will improve further
+- Manager effort will decrease
+- The system will remain effective even as team size or complexity increases
+
+#### Current Observations:
+- Tracking is already effective
+- Weekly reports are consistent
+- GitHub and Slack are both actively used
+- Manager can monitor progress successfully
+
+#### KPIs to be measured:
+- % of Slack action items converted into GitHub issues within 24 hours
+- Reduction in manual tracking effort
+- Number of missing or delayed tasks (should remain low or decrease)
+- Stakeholder feedback on clarity and ease of tracking
+
+---
+
+### 3. Explain your method for testing these hypotheses via flowcharts
+
+Slack / Meeting Discussion  
+→ Identify Action Item  
+→ Create GitHub Issue (within 24 hours)  
+→ Confirm in Slack  
+→ Manager Review  
+→ Weekly Tracking Review  
+→ Measure KPIs  
+
+This process will be tested through a pilot within the current team.
+
+---
+
+### 4. Stakeholder engagement
+
+Stakeholders (researchers, comp advisors, and manager) are highly engaged:
+- Team members submit weekly reports
+- Communication is consistent
+- Tasks are generally well tracked
+
+Observed behavior:
+- Team already follows a structured workflow informally
+- GitHub and Slack are both used effectively
+
+Engagement assessment:
+- High engagement and cooperation
+- Low resistance to structured processes
+
+Reflection:
+Stakeholder engagement meets expectations and provides a strong foundation for this initiative.
+
+Adjustment:
+- Keep the process lightweight
+- Avoid adding unnecessary overhead
+- Focus on standardization rather than change
+
+---
+
+### 5. Documented processes / Sustainability
+
+Documented:
+- Slack → GitHub Handoff Procedure
+- Weekly tracking review process
+
+Location:
+- GitHub repository:
+  👉 `./tracking-slack-github-handoff-initiative`
+
+Planned documentation:
+- GitHub issue templates
+- Weekly tracking checklist
+- Manager workflow guide
+
+These will ensure the system is sustainable and transferable to other teams.
+
+---
+
+### 6. Measuring progress toward goals
+
+Current methods:
+- Weekly reports
+- Slack updates
+- GitHub tracking
+
+Strengths:
+- High visibility of tasks
+- Consistent reporting
+- Clear progress monitoring
+
+Indicators of success:
+- Continued consistency in reporting
+- Clear task ownership
+- Minimal missing tasks
+
+Indicators of improvement:
+- Reduced need for manual tracking
+- More standardized documentation
+
+---
+
+### 7. Obstacles / bottlenecks
+
+Observed challenges:
+- Dependence on manual coordination by the manager
+- Lack of formal standardized process
+- Documentation (e.g., README) not always updated systematically
+
+Anticipated challenges:
+- Ensuring consistency across all team members
+- Avoiding unnecessary process overhead
+
+Unexpected issues:
+- Difficulty defining exact project completion percentage due to evolving research scope
+- Natural variability in research timelines
