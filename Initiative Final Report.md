@@ -1,6 +1,8 @@
 # HAAG Tracking Initiative Final Report
 
-### Management & Leadership in CS
+**Course:** Management & Leadership in CS
+**Name:** [Your Name]
+**Date:** April 2026
 
 ---
 
@@ -12,77 +14,171 @@
 
 ## 1. Scope of the Initiative
 
-This initiative focuses on addressing a critical gap in HAAG’s tracking workflow: while communication is highly active in Slack, many decisions and action items are not consistently recorded in GitHub. This creates a disconnect between communication and execution, leading to missed tasks, unclear ownership, and reduced visibility across the team.
+This initiative addresses a key gap in HAAG’s tracking workflow: while communication within teams is active and effective through Slack, many decisions and action items are not consistently recorded in GitHub. This creates a disconnect between communication and execution, leading to missed tasks, delayed follow-ups, and unclear ownership.
 
-The scope of this initiative is to design and propose a lightweight, standardized Slack-to-GitHub handoff procedure that ensures all actionable items discussed in Slack are converted into structured GitHub issues within a defined timeframe. The goal is not to redesign the entire tracking system, but to improve consistency, accountability, and long-term traceability by establishing GitHub as the single source of truth.
+The scope of this initiative is to design and propose a lightweight, standardized Slack-to-GitHub handoff procedure that ensures all actionable items discussed in Slack are converted into structured GitHub issues within 24 hours. The goal is not to redesign the entire tracking system, but to improve consistency, accountability, and long-term traceability by establishing GitHub as the single source of truth for project tracking.
 
 ---
 
 ## 2. Alignment with HAAG Goals
 
-This initiative aligns strongly with HAAG’s goals of improving visibility, coordination, and scalability across research teams.
+This initiative aligns with HAAG’s goals of improving visibility, coordination, and scalability across research teams.
 
-From observations during weekly meetings and Slack discussions, it was clear that:
+Through observations during weekly meetings and Slack discussions, it became clear that:
 
 * Teams communicate effectively in Slack
-* GitHub is used for tracking, but not consistently
-* Managers often rely on manual reconciliation between Slack and GitHub
+* GitHub is used for tracking, but not always consistently
+* Managers often rely on manual effort to reconcile Slack discussions with GitHub records
 
-Additionally, discussions with team members and tracking group insights revealed:
+Additionally, feedback from tracking group discussions highlighted that:
 
 * Action items can be lost or delayed
 * Ownership is not always clearly defined
-* Tracking depends on individual discipline rather than structure
+* Tracking depends on individual discipline rather than a standardized process
 
-By introducing a structured handoff process, this initiative supports HAAG’s objective of creating a more transparent, standardized, and scalable tracking system.
-
----
-
-# 📊 Slides Summary (Presentation Content)
+By introducing a structured Slack-to-GitHub handoff workflow, this initiative improves visibility, ensures accountability, and supports a more scalable and reliable tracking system.
 
 ---
 
-## Slide 1 — Slack-to-GitHub Tracking Gap
+## 3. Procedures Generated and Purpose
 
-### Context
+### Procedure Name
+
+**Slack-to-GitHub Handoff Workflow**
+
+### Purpose
+
+The purpose of this procedure is to ensure that all decisions and action items discussed in Slack are consistently captured in GitHub, enabling clear tracking, ownership, and progress visibility across the team.
+
+### Link
+
+(Add your GitHub link here)
+
+---
+
+# ⚙️ Procedure: Slack-to-GitHub Handoff Workflow
+
+## Intended Audience
+
+Primary: Researchers
+Secondary: Project Managers
+
+This procedure assumes:
+
+* The user has no prior knowledge of tracking standards
+* The user has limited time and prefers simple instructions
+* The user is familiar with Slack and GitHub at a basic level
+
+---
+
+## Step-by-Step Procedure
+
+### Step 1 — Identify Action Item
+
+From Slack discussions or meetings, identify:
+
+* What needs to be done
+* Who is responsible
+* What the expected outcome is
+* Any relevant timeline or deadline
+
+---
+
+### Step 2 — Create GitHub Issue (within 24 hours)
+
+Create a new issue in GitHub including:
+
+* Title: clear and action-focused
+* Description: short context
+* Owner: assigned individual
+* Deadline (if applicable)
+* Definition of Done (clear expected outcome)
+* Link to Slack discussion
+
+---
+
+### Step 3 — Confirm in Slack
+
+Reply in the original Slack thread:
+“GitHub issue created: [link]”
+
+Tag:
+
+* The assigned owner
+* The project manager
+
+---
+
+### Step 4 — Manager Verification
+
+The manager reviews the issue to ensure:
+
+* Ownership is clearly assigned
+* The task is well-defined
+* A timeline is present
+
+If incomplete, corrections are requested immediately.
+
+---
+
+### Step 5 — Weekly Tracking Review
+
+Once per week, the manager:
+
+* Reviews newly created issues
+* Identifies missing or delayed tasks
+* Flags blockers
+* Ensures tracking consistency
+
+---
+
+# 🧩 Implementation Considerations
+
+## Integration into HAAG
+
+* Uses existing tools (Slack and GitHub)
+* Fits naturally into current workflows
+* No additional systems or tools required
+
+---
+
+## Effort and Feasibility
+
+* Each action item takes approximately 1–2 minutes to document
+* Minimal overhead for researchers
+* Simple and repeatable process
+
+---
+
+## Enforcement Mechanism
+
+* Slack confirmation step ensures visibility
+* Manager verification ensures quality
+* Weekly review ensures consistency
+
+---
+
+## Reproducibility
+
+* Step-by-step instructions allow independent use
+* No external context required
+* Can be adopted by any HAAG team
+
+---
+
+# 📊 Slide Summary (Presentation Content)
+
+## Slide 1 — Tracking Gap
 
 * Slack = communication
 * GitHub = tracking
-
-### Problem
-
-* Action items discussed in Slack
-* Not consistently recorded in GitHub
-
-### Impact
-
-* Lost tasks
-* Delayed progress
-* Unclear ownership
-
-### Scope
-
-* Standardize Slack → GitHub transition
-* Establish GitHub as single source of truth
+* Gap: action items not consistently transferred
 
 ---
 
-## Slide 2 — Procedure: Slack → GitHub Handoff
+## Slide 2 — Procedure Workflow
 
-### Workflow
-
-1. Identify action item in Slack
-2. Create GitHub issue (within 24 hours)
-3. Assign owner and deadline
-4. Include Slack link
-5. Confirm in Slack
-6. Manager verifies completeness
-
----
-
-### Process Diagram
-
-```
+```text
 Slack Discussion
       ↓
 Identify Action Item
@@ -93,179 +189,21 @@ Confirm in Slack
       ↓
 Manager Verification
       ↓
-Tracked & Visible Task
+Tracked Task
 ```
 
 ---
 
-## Slide 3 — Integration, Effort & Sustainability
+## Slide 3 — Integration & Sustainability
 
-### Integration
-
-* Uses Slack + GitHub
-* No new tools required
-
-### Effort
-
-* ~2 minutes per action item
-* Simple and repeatable
-
-### Enforcement
-
-* Weekly check by manager
-* Missing items flagged
-
-### Impact
-
-* Improved visibility
-* Clear ownership
-* Consistent tracking
-
-### Longevity
-
-* Lightweight and scalable
-* Easy adoption across teams
+* Uses existing tools
+* Minimal effort
+* Weekly enforcement
+* Scalable across teams
 
 ---
 
-# ⚙️ Procedures
-
-## Procedure Name
-
-**Slack-to-GitHub Handoff Workflow**
-
----
-
-## Intended Audience
-
-Primary: Researchers
-Secondary: Project Managers
-
-The procedure assumes:
-
-* No prior knowledge
-* Minimal time availability
-* Need for simple and clear instructions
-
----
-
-## Step-by-Step Procedure
-
-### Step 1 — Identify Action Item
-
-From Slack or meetings:
-
-* What needs to be done?
-* Who is responsible?
-* What is the expected outcome?
-
----
-
-### Step 2 — Create GitHub Issue (within 24 hours)
-
-Include:
-
-* Title (clear action)
-* Description (context)
-* Owner
-* Deadline
-* Definition of Done
-* Slack link
-
----
-
-### Step 3 — Confirm in Slack
-
-Reply in Slack thread:
-“GitHub issue created: [link]”
-
-Tag:
-
-* Owner
-* Manager
-
----
-
-### Step 4 — Manager Verification
-
-Manager checks:
-
-* Owner assigned
-* Deadline exists
-* Task clearly defined
-
-If incomplete → request correction
-
----
-
-### Step 5 — Weekly Integrity Check
-
-Manager (weekly):
-
-* Review new issues
-* Identify missing items
-* Flag delays
-
----
-
-# ✅ Evaluation Criteria (Met)
-
-### ✔ Intended Audience
-
-Clearly defined (researchers + managers)
-
----
-
-### ✔ Appropriate Detail
-
-* Step-by-step instructions
-* No assumptions
-
----
-
-### ✔ Reproducibility
-
-* Procedure can be followed independently
-* No external context required
-
----
-
-### ✔ Realistic Effort
-
-* <2 minutes per task
-* Minimal overhead
-
----
-
-### ✔ Integration
-
-* Uses existing Slack + GitHub workflow
-* No disruption to current system
-
----
-
-### ✔ Enforcement
-
-* Slack confirmation step
-* Manager verification
-* Weekly tracking review
-
----
-
-# 📈 Longevity & Sustainability
-
-This initiative ensures long-term adoption through:
-
-* **Simplicity** → low resistance
-* **Integration** → no new tools
-* **Clear ownership** → defined responsibilities
-* **Standardization** → repeatable workflow
-
-Because it aligns with existing behavior and minimizes effort, it can be sustained beyond the course and scaled across HAAG teams.
-
----
-
-# 🎤 Presentation Questions (Answered)
+# 🎤 Presentation Questions
 
 ### Scope
 
@@ -287,9 +225,9 @@ Slack-to-GitHub handoff workflow
 
 ### Longevity
 
+* Lightweight and simple
 * Integrated into existing tools
-* Minimal effort
-* Clear enforcement mechanisms
+* Clear ownership and enforcement
 
 ---
 
@@ -297,12 +235,6 @@ Slack-to-GitHub handoff workflow
 
 This initiative addresses a fundamental tracking gap in HAAG by ensuring that communication in Slack is consistently translated into actionable and trackable items in GitHub.
 
-By introducing a lightweight, structured procedure, the system improves:
-
-* visibility
-* accountability
-* coordination
-
-while maintaining simplicity and scalability for long-term use.
+By introducing a simple and structured procedure, the system improves visibility, accountability, and coordination while maintaining low effort and high scalability. This makes it sustainable and adaptable for long-term use beyond the course.
 
 ---
