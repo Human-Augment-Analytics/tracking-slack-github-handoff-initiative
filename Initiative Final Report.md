@@ -50,9 +50,6 @@ By introducing a structured Slack-to-GitHub handoff workflow, this initiative im
 
 The purpose of this procedure is to ensure that all decisions and action items discussed in Slack are consistently captured in GitHub, enabling clear tracking, ownership, and progress visibility across the team.
 
-### Link
-
-(Add your GitHub link here)
 
 ---
 
