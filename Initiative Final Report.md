@@ -1,7 +1,7 @@
 # HAAG Tracking Initiative Final Report
 
 **Course:** Management & Leadership in CS
-**Name:** [Your Name]
+**Name:** Nahal Bagheri
 **Date:** April 2026
 
 ---
